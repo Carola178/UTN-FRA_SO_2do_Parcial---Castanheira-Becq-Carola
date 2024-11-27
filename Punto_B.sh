@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ruta_destino="/usr/local/bin/BevilacquaAltaUser-Groups.sh"
+ruta_destino="/usr/local/bin/CastanheiraUser-Groups.sh"
 
 if [ "$(realpath "$0")" != "$ruta_destino" ]; then
     echo "El script no está en la ubicación correcta. Moviéndolo a $ruta_destino..."
